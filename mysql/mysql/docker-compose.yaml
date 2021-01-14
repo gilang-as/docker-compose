@@ -1,0 +1,18 @@
+version: "2"
+services:
+    database_server:
+        container_name: database_server
+        image: mysql:5.7.26
+        command: mysqld
+        environment:
+            MYSQL_DATABASE: main_db
+            MYSQL_USER: user
+            MYSQL_PASSWORD: password
+            MYSQL_ROOT_PASSWORD: password
+        volumes:
+            - database_server_data:/var/lib/mysql
+        ports:
+            - 3306:3306
+
+volumes:
+    database_server_data:

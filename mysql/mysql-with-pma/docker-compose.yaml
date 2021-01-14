@@ -1,0 +1,32 @@
+version: "2"
+services:
+    database_server:
+        container_name: database_server
+        image: mysql:5.7.26
+        command: mysqld
+        environment:
+            MYSQL_DATABASE: main_db
+            MYSQL_USER: user
+            MYSQL_PASSWORD: password
+            MYSQL_ROOT_PASSWORD: password
+        volumes:
+            - database_server_data:/var/lib/mysql
+        ports:
+            - 3306:3306
+
+    database_pma:
+        container_name: database_pma
+        image: phpmyadmin/phpmyadmin
+        depends_on:
+            - database_server
+        environment:
+            PMA_HOST: database_server
+            PMA_PORT: 3306
+            PMA_USER: root
+            PMA_PASSWORD: password
+            PMA_ARBITRARY: 1
+        ports:
+            - 80:80
+
+volumes:
+    database_server_data:

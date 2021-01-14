@@ -1,0 +1,12 @@
+version: "2"
+services:
+    database_server:
+        container_name: database_server
+        image: mongo
+        environment:
+            MONGO_INITDB_ROOT_USERNAME: admin
+            MONGO_INITDB_ROOT_PASSWORD: password
+        volumes:
+            - database_server_data:/data/db
+volumes:
+    database_server_data:
