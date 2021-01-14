@@ -3,7 +3,7 @@
 
 ## Services
 - MongoDB
-- Nginx Proxy with SLL and Domain
+- Nginx Proxy with SSL and Domain
 - MySQL
 - Redis
 - RabbitMQ
