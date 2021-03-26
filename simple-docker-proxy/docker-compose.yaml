@@ -1,0 +1,18 @@
+version: '2'
+services:
+  simple_proxy_domain:
+    container_name: simple-proxy-domain
+    image: simple-proxy-domain:latest
+    build: .
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./config/certs:/etc/nginx/certs
+      - ./volumes/nginx/dhparam:/etc/nginx/dhparam
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+
+networks:
+  default:
+    external:
+      name: simple-proxy-domain

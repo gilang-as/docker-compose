@@ -1,0 +1,12 @@
+version: '2'
+services:
+  b_local:
+    container_name: b-local
+    image: jwilder/whoami
+    environment:
+      - VIRTUAL_HOST=b.local
+
+networks:
+  default:
+    external:
+      name: simple-proxy-domain
