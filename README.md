@@ -2,9 +2,35 @@
 #### Example Docker Compose
 
 ## Config Services
-- MongoDB
-- Nginx Proxy with SSL and Domain
-- MySQL
-- Redis
-- RabbitMQ
-- Kong Gateway
+- **Angular** [repository](https://github.com/gilang-as/docker-compose/tree/main/angular)
+- **Apache PHP** [repository](https://github.com/gilang-as/docker-compose/tree/main/apache-php)
+- **ASP Net, MSSQL** [repository](https://github.com/gilang-as/docker-compose/tree/main/aspnet-mssql)
+- **Django** [repository](https://github.com/gilang-as/docker-compose/tree/main/django)
+- **Elasticsearch, Logstash, Kibana** [repository](https://github.com/gilang-as/docker-compose/tree/main/elasticsearch-logstash-kibana)
+- **Flask** [repository](https://github.com/gilang-as/docker-compose/tree/main/flask)
+- **Git Tea, Postgres** [repository](https://github.com/gilang-as/docker-compose/tree/main/gitea-postgres)
+- **Golang** [repository](https://github.com/gilang-as/docker-compose/tree/main/golang)
+- **Kong Gateway** [repository](https://github.com/gilang-as/docker-compose/tree/main/kong-gateway)
+- **Minecraft** [repository](https://github.com/gilang-as/docker-compose/tree/main/minecraft)
+- **MongoDB** [repository](https://github.com/gilang-as/docker-compose/tree/main/mongo)
+- **Nginx Proxy with SSL and Domain** [repository](https://github.com/gilang-as/docker-compose/tree/main/multiple-domain-proxy-ssl)
+- **MySQL** [repository](https://github.com/gilang-as/docker-compose/tree/main/mysql)
+- **NextCloud, Postgres** [repository](https://github.com/gilang-as/docker-compose/tree/main/nextcloud-postgres)
+- **NextCloud, Redis, MariaDB** [repository](https://github.com/gilang-as/docker-compose/tree/main/nextcloud-redis-mariadb)
+- **Nginx, Flask, Mongo** [repository](https://github.com/gilang-as/docker-compose/tree/main/nginx-flask-mongo)
+- **Nginx, Flask, MySQL** [repository](https://github.com/gilang-as/docker-compose/tree/main/nginx-flask-mysql)
+- **Nging, Golang, MySQL** [repository](https://github.com/gilang-as/docker-compose/tree/main/nginx-golang-mysql)
+- **Nginx, Golang, Postgres** [repository](https://github.com/gilang-as/docker-compose/tree/main/nginx-golang-postgres)
+- **Nginx, Golang** [repository](https://github.com/gilang-as/docker-compose/tree/main/nginx-golang)
+- **Prometheus Grafana** [repository](https://github.com/gilang-as/docker-compose/tree/main/prometheus-grafana)
+- **RabbitMQ** [repository](https://github.com/gilang-as/docker-compose/tree/main/rabbit-mq)
+- **ReactJS, ExpressJS, MongoDB** [repository](https://github.com/gilang-as/docker-compose/tree/main/react-express-mongodb)
+- **ReactJS, ExpressJS, MySQL** [repository](https://github.com/gilang-as/docker-compose/tree/main/react-express-mysql)
+- **ReactJS, Java, MySQL** [repository](https://github.com/gilang-as/docker-compose/tree/main/react-java-mysql)
+- **ReactJS, Rust, Postgres** [repository](https://github.com/gilang-as/docker-compose/tree/main/react-rust-postgres)
+- **Redis** [repository](https://github.com/gilang-as/docker-compose/tree/main/redis)
+- **Sparkjava, MySQL** [repository](https://github.com/gilang-as/docker-compose/tree/main/sparkjava-mysql)
+- **Sparkjava** [repository](https://github.com/gilang-as/docker-compose/tree/main/sparkjava)
+- **Spring, Postgres** [repository](https://github.com/gilang-as/docker-compose/tree/main/spring-postgres)
+- **VueJS** [repository](https://github.com/gilang-as/docker-compose/tree/main/vuejs)
+- **Wordpress, MySQL** [repository](https://github.com/gilang-as/docker-compose/tree/main/wordpress-mysql)
